@@ -1,7 +1,7 @@
 web:
   build: .
   volumes:
-    - ".:/code" # monte le dossier courant de l'ordinateur dans le dossier code de la machine virtuelle
+    - ".:/code"
   ports:
     - "80:80"
   links:
